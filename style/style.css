@@ -12,7 +12,7 @@
 }
 
 .main {
-    background-image: url(../img/Main_photo.png);
+    background-image: url(../img/Afbeelding_1.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -266,61 +266,83 @@ footer {
         display: flex !important;
         flex-direction: column-reverse;
     }
+
     .about_block {
         display: block;
     }
+
     .about_block img {
         width: 100%;
         margin: 0 auto;
     }
+
     .about_blockContent {
         margin-right: 0px !important;
         margin-top: 40px;
     }
 }
+
 @media (max-width: 750px) {
     .contacts_block {
         display: block;
     }
+
     .logo_contacts {
         text-align: center;
         margin-bottom: 50px;
     }
+
     .about_blockContent {
         padding: unset;
     }
+
     .main_plot {
         margin-top: 100px;
     }
+
+    .logo_contacts img {
+        max-width: 280px;
+        width: 100%;
+    }
 }
+
 @media (max-width: 520px) {
     .about_blockTitle {
         font-size: 30px;
     }
+
     .about_block {
         margin-top: 100px;
     }
+
     .main_plot h1 {
         font-size: 90px;
     }
+
     .info h2 {
         font-size: 18px;
     }
+
     .info p {
         font-size: 18px;
     }
+
     .contacts_plot {
         font-size: 30px;
     }
+
     .contacts_subtitle {
         font-size: 20px;
     }
+
     .contacts_address {
         font-size: 20px;
     }
+
     .contacts_phone {
         font-size: 20px;
     }
+
     .contacts_phone span {
         font-size: 20px;
     }
