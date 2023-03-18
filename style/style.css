@@ -89,8 +89,9 @@ header {
     background-image: url(../img/Info_background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 35vh;
     background-position: center;
+    display: flex;
+    align-items: center;
 }
 
 .about {
@@ -253,7 +254,16 @@ footer {
     fill: white;
     transition: 0.3s;
 }
-
+.info_background h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+}
 @media (max-width: 1300px) {
     .container {
         padding-left: 20px;
@@ -345,5 +355,13 @@ footer {
 
     .contacts_phone span {
         font-size: 20px;
+    }
+
+    .header_contacts svg {
+        width: 30px;
+        height: 30px;
+    }
+    .header_contacts {
+        max-width: 120px;
     }
 }
