@@ -197,9 +197,10 @@ header {
     font-size: 24px;
 }
 
-.contacts_phone span {
+.contacts_phone a {
     font-weight: 500;
     font-size: 24px;
+    color: black;
 }
 
 .contacts_desc button {
@@ -365,7 +366,7 @@ header img {
         font-size: 20px;
     }
 
-    .contacts_phone span {
+    .contacts_phone a {
         font-size: 20px;
     }
 
